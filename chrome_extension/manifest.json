@@ -1,0 +1,23 @@
+{
+    "name": "Baby-Yoda",
+    "version": "1.0.0",
+    "description": "Baby-Yoda startpage",
+    "manifest_version": 3,
+    "author": "Nayera Hazem",
+    "icons": {
+        "128": "resources/icons8-baby-yoda-128.png"
+    },
+    "action": {
+        "default_title": "baby yoda startpage"
+    },
+    "service_worker": {
+        "script": "index.js"
+    },
+    "permissions": [
+        "tabs",
+        "activeTab",
+        "scripting",
+        "https://codingchallenges.substack.com/feed"
+    ]
+}
+
